@@ -9,4 +9,9 @@ RUN npm init --y
 COPY package.json package-lock.json /
 RUN npm install
 
-RUN mkdir -p /post
+RUN mkdir -p /post \
+    /textlint
+
+WORKDIR /textlint
+
+ENTRYPOINT ["textlint"]
