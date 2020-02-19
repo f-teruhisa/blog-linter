@@ -1,8 +1,7 @@
-FROM alpine:3.5
+FROM node:slim
 LABEL maintainer "f-teruhisa: teru_fukumoto@outlook.jp"
 
 ENV PATH $PATH:/node_modules/.bin
-RUN apk add --update --no-cache nodejs
 
 RUN npm init --y
 

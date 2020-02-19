@@ -1,4 +1,12 @@
 {
+  "filters": {
+    "whitelist": {
+      // HugoのFront MatterとShort Codeを無視する
+      "allow": [
+        "/^{{％[\\s\\S]*?％}}/m"
+      ]
+    }
+  },
   "rules": {
     // 技術文書向けの textlint ルールプリセット
     "preset-ja-technical-writing": {
@@ -105,7 +113,7 @@
     "spellcheck-tech-word": true,
     "prh": {
       "rulePaths": [
-        ".././prh.yml"
+        "../prh.yml"
       ]
     }
   }
