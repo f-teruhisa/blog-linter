@@ -112,9 +112,9 @@
     // Tech Wordのスペルチェック
     "spellcheck-tech-word": true,
     "prh": {
-      "rulePaths": [
-        "../prh.yml"
-      ]
+        "rulePaths": [
+            "./prh.yml"
+        ]
     }
   }
 }

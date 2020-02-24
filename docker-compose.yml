@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./post:/post
-      - ./textlint/.textlintrc:/textlint/.textlintrc
+      - ./textlint/:/textlint/
