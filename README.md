@@ -4,8 +4,8 @@
   <a href="#" target="_blank">
     <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
   </a>
-  <a href="https://twitter.com/terry\_i\_" target="_blank">
-    <img alt="Twitter: terry\_i\_" src="https://img.shields.io/twitter/follow/terry\_i\_.svg?style=social" />
+  <a href="https://twitter.com/terry_i_" target="_blank">
+    <img alt="Twitter: terry_i_" src="https://img.shields.io/twitter/follow/terry_i_.svg?style=social" />
   </a>
 </p>
 
@@ -35,8 +35,8 @@ make fix
 
 👤 **f-teruhisa**
 
-* Website: https://github.com/mpg-teruhisa-fukumoto
-* Twitter: [@terry\_i\_](https://twitter.com/terry_i_)
+* Website: https://github.com/f-teruhisa/blog-linter
+* Twitter: [@terry_i_](https://twitter.com/terry_i_)
 * Github: [@f-teruhisa](https://github.com/f-teruhisa)
 
 ## Show your support
