@@ -2,9 +2,8 @@
   "filters": {
     "whitelist": {
       // HugoのFront MatterとShort Codeを無視する
-      "allow": [
-        "/^{{％[\\s\\S]*?％}}/m"
-      ]
+      "allow": ["/^{{％[\\s\\S]*?％}}/m", "/^<[\\s\\S]*?/>/m"]
+      // Reactコンポーネントをlint対象から除外
     }
   },
   "rules": {
