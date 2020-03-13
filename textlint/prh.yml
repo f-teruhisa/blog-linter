@@ -4,3 +4,30 @@ rules:
     specs:
       - from: google
         to:   Google
+  - expected: Issue
+    pattern: /issue/
+  - expected: Pull Request
+    pattern: /[Pp]ull[- ][Rr]equest/
+    specs:
+      - from: pull request
+        to: Pull Request
+      - from: Pull request
+        to: Pull Request
+      - from: pull-request
+        to: Pull Request
+  - expected: てみる
+    pattern: て見
+  - expected: てくる
+    pattern: て来る
+  - expected: ついに
+    pattern: 遂に
+  - expected: すること
+    pattern: する事
+  - expected: 私たち
+    pattern:
+      - わたしたち
+      - 私達
+  - expected: プラットフォーム
+    pattern: プラットホーム
+  - expected: リポジトリ
+    pattern: レポジトリ
