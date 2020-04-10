@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "minimist": "^0.2.1",
     "sudachi-synonyms-dictionary": "^4.1.0",
     "technological-book-corpus-ja": "^2.0.1",
     "textlint-rule-no-doubled-joshi": "^3.7.2",
