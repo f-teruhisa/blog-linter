@@ -11,3 +11,6 @@ lint:
 
 fix:
 	docker-compose run linter ./node_modules/.bin/textlint --fix ../post/post.md
+
+test:
+	docker-compose run linter ./node_modules/.bin/mocha test/
