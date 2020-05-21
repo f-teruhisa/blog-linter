@@ -31,3 +31,23 @@ rules:
     pattern: プラットホーム
   - expected: リポジトリ
     pattern: レポジトリ
+  - expected: jQuery
+    specs:
+      - from: jquery
+        to:   jQuery
+      - from: ＪＱＵＥＲＹ
+        to:   jQuery
+  - expected: Java
+    specs:
+      - from: java
+        to:   Java
+      - from: JAVA
+        to:   Java
+  - expected: GitHub
+    patterns:
+      - Github
+      - github
+      - Git Hub
+      - git hub
+  - expected: ご覧
+    pattern: 御覧
