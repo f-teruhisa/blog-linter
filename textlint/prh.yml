@@ -51,3 +51,5 @@ rules:
       - git hub
   - expected: ご覧
     pattern: 御覧
+  - expected: OpenAPI
+    pattern: /Open / /API/
